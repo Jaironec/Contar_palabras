@@ -1,0 +1,3 @@
+Debe poner nombres significativos a los formularios
+Puede mejorar las condiciones del bucle while en el ejercicio de contar palabras
+Calificación: 3/3
