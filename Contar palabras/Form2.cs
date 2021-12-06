@@ -25,14 +25,14 @@ namespace Contar_palabras
         private void button1_Click(object sender, EventArgs e)
         {
             string derecho = textIngreso.Text;
-            string revez="";
+            string izquierda="";
             this.textSalida.Clear();
             for (int x = derecho.Length - 1; x >= 0; x--)
             {
-                revez += derecho[x];
+                izquierda += derecho[x];
             }
-            Console.WriteLine($"{0}", revez);
-            this.textSalida.Text = revez.ToString();
+            Console.WriteLine($"{0}", izquierda);
+            this.textSalida.Text = izquierda.ToString();
         }
 
         private void Form2_Load(object sender, EventArgs e)
